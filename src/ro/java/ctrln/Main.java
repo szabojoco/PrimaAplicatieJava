@@ -9,18 +9,7 @@ public class Main {
      */
 
     public static void main(String[] args) {
-        if(args.length != 4) {
-            System.out.println("USAGE: java ro.java.ctrln.Main 1 2 3 4");
-            return;
-        }
-
-        if(args[0].equals("1")) {
-            System.out.println("Ar trebui sa am un singur mesaj");
-            return;
-        }
-
 	    System.out.println("Invat limbajul Java si despre masina virtuala Java!");
-	    ro.java.misc.Main.main(args);
     }
 }
 
